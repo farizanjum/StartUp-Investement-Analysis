@@ -18,7 +18,7 @@ You can use the filters on the left sidebar to explore different aspects of the 
 """)
 
 # CSV path
-file_path = r"C:\Users\fariz\OneDrive\Desktop\experiments\misc\Startup_Funding.csv"
+file_path = os.path.join(os.path.dirname(__file__), "Startup_Funding.csv")
 
 # Load data
 @st.cache_data
